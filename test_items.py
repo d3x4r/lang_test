@@ -7,4 +7,4 @@ def test_add_to_cart_button_is_enabled(browser):
         '#add_to_basket_form .btn-add-to-basket')
 
     is_enabled = add_to_basket_btn.is_enabled()
-    assert is_enabled, 'add to basktet button is not enabled'
+    assert is_enabled, 'add to basket button is not enabled'
